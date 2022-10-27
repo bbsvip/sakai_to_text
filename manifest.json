@@ -1,0 +1,29 @@
+{
+  "name": "Get Text Sakai",
+  "version": "2.1",
+  "description": "Vợ yêu học tốt nhó. Yêu em ❤",
+  "icons": {
+    "256": "icons/sheep_icon-1.png",
+    "128": "icons/sheep_icon-2.png",
+    "64": "icons/sheep_icon-3.png",
+    "48": "icons/sheep_icon-4.png",
+    "32": "icons/sheep_icon-5.png",
+    "16": "icons/sheep_icon-6.png"
+  },
+  "author": "Cừu Đen - MrBBS",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_title": "Yêu em",
+    "default_icon": "icons/sheep_icon-5.png"
+  }
+}
